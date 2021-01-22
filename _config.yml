@@ -7,9 +7,9 @@
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # --------------------------
-title: Chirpy                          # the main title
+title: BLOG                          # the main title
 
-tagline: A text-focused Jekyll theme   # it will display as the sub-title
+tagline: Jekyll theme   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   A minimal, portfolio, sidebar,
@@ -17,19 +17,19 @@ description: >-                        # used by seo meta and the atom feed
   and focuses on text presentation.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: ''
+url: 'https://israafeel.github.io'
 
-author: your_full_name                  # change to your full name
+author: israafeel                 # change to your full name
 
 github:
-  username: github_username             # change to your github username
+  username: israafeel             # change to your github username
 
 twitter:
-  username: twitter_username            # change to your twitter username
+  username: none            # change to your twitter username
 
 social:
-  name: your_full_name                  # it will shows as the copyright owner in Footer
-  email: example@doamin.com             # change to your email address
+  name: israafeel                  # it will shows as the copyright owner in Footer
+  email: niqiesehe@qq.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
     - https://twitter.com/username      # change to your twitter homepage
@@ -58,7 +58,7 @@ google_analytics:
     # the next options only valid when `google_analytics.pv` is enabled.
     proxy_url: ''
     proxy_endpoint: ''
-    cache: false  # pv data local cache, good for the users from GFW area.
+    cache: true  # pv data local cache, good for the users from GFW area.
 
 disqus:
   comments: false  # boolean type, the global switch for posts comments.
@@ -77,7 +77,7 @@ disqus:
 #
 #     dark   - Use the dark color scheme
 #
-theme_mode:   # [light|dark]
+theme_mode:  dark # [light|dark]
 
 # The CDN endpoint for images.
 # Notice that once it is assigned, the CDN url
@@ -87,7 +87,7 @@ theme_mode:   # [light|dark]
 img_cdn: ''
 
 # the avatar on sidebar, support local or CORS resources
-avatar: https://cdn.jsdelivr.net/gh/cotes2020/chirpy-images/commons/avatar.jpg
+avatar: https://avatars.githubusercontent.com/u/25289383
 
 # boolean type, the global switch for ToC in posts.
 toc: true
